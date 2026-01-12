@@ -1,0 +1,39 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    width: 320px;
+    border-radius: 8px;
+    position: relative;
+}
+.modal h2 {
+    text-align: center;
+    font-size: 32px;
+}
+.modal p {
+    margin-top: 10px;
+    line-height: 1.5;
+
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    cursor: pointer;
+    font-size: 20px;
+}
